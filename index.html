@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EvoLUZcion ofrece productos de iluminación LED de bajo consumo, perfectos para tu hogar. Descubre nuestra variedad de productos y contáctanos por WhatsApp.">
+    <meta name="keywords" content="LED, iluminación, bajo consumo, seguridad, tecnología, productos eléctricos">
+    <title>Productos de Iluminación LED - EvoLUZcion</title>    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fcfbfc;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #E8E8E8;
+            color: white;
+            text-align: center;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        header img {
+            width: 25%;
+            height: auto;
+        }
+
+        .title {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            font-size: 1.8rem;
+        }
+
+        .product-section {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .product-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #ffffff;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin: 10px auto;
+        }
+
+        .product-image img {
+            max-width: 80%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .product-title {
+            font-size: 1.2rem;
+            margin: 8px 0;
+            color: #333;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .product-price {
+            font-size: 1.3rem;
+            color: #FF5722;
+            margin: 8px 0;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .buy-button {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 15px;
+        }
+
+        .buy-button:hover {
+            background-color: #218838;
+        }
+
+        .whatsapp-btn {
+            display: flex;
+            align-items: center;
+            background-color: #25D366;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 15px;
+        }
+
+        .whatsapp-btn img {
+            width: 18px;
+            margin-right: 8px;
+        }
+
+        .whatsapp-btn:hover {
+            background-color: #1ebe57;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        footer .social-icons img {
+            width: 35px;
+            margin: 0 8px;
+            cursor: pointer;
+            vertical-align: middle;
+        }
+
+        footer p {
+            margin: 0;
+            padding: 5px 0;
+        }
+
+        @media (max-width: 768px) {
+            .product-section {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://i.imgur.com/ztFphQQ.png" alt="EvoLUZcion Logo">
+    </header>
+
+    <div class="title">Descarga nuestro Catálogo y consúltanos por Redes Sociales</div>
+
+    <section class="product-section">
+        <div class="product-container">
+            <div class="product-image">
+                <img src="https://i.imgur.com/cGtfSE4.png" alt="Producto 1">
+            </div>
+            <h1 contenteditable="true" class="product-title" id="product1-title">Led de bajo consumo.</h1>
+            <p contenteditable="true" class="product-price" id="product1-price">"colores, para tu vida."</p>
+            <a href="https://wa.me/5493517910019?text=" class="whatsapp-btn" id="product1-whatsapp" target="_blank">
+                <img src="https://image.pngaaa.com/240/1760240-middle.png" alt="WhatsApp" />
+                <span>Contactar por WhatsApp</span>
+            </a>
+        </div>
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "Product",
+              "name": "Led de bajo consumo",
+              "image": "https://i.imgur.com/cGtfSE4.png",
+              "description": "Colores, para tu vida.",
+              "offers": {
+                "@type": "Offer",
+                "url": "https://wa.me/5493513038119?text=",
+                "priceCurrency": "ARS",
+                "price": "XX.XX", // Inserta el precio correspondiente
+                "itemCondition": "https://schema.org/NewCondition",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+            </script>
+    
+        <div class="product-container">
+            <div class="product-image">
+                <img src="https://i.imgur.com/XQ4DLZu.png" alt="Producto 2">
+            </div>
+            <h1 contenteditable="true" class="product-title" id="product2-title">Llaves Termicas.</h1>
+            <p contenteditable="true" class="product-price" id="product2-price">"seguridad para tu casa"</p>
+            <a href="https://wa.me/5493517910019?text=" class="whatsapp-btn" id="product2-whatsapp" target="_blank">
+                <img src="https://image.pngaaa.com/240/1760240-middle.png" alt="WhatsApp" />
+                <span>Contactar por WhatsApp</span>
+            </a>
+        </div>
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "Product",
+              "name": "Llaves Termicas",
+              "image": "https://i.imgur.com/XQ4DLZu.png",
+              "description": "Seguridad para tu casa.",
+              "offers": {
+                "@type": "Offer",
+                "url": "https://wa.me/5493513038119?text=",
+                "priceCurrency": "ARS",
+                "price": "XX.XX", // Inserta el precio correspondiente
+                "itemCondition": "https://schema.org/NewCondition",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+            </script>
+    
+        <div class="product-container">
+            <div class="product-image">
+                <img src="https://i.imgur.com/3ZBwQDu.png" alt="Producto 3">
+            </div>
+            <h1 contenteditable="true" class="product-title" id="product3-title">Led con sensores</h1>
+            <p contenteditable="true" class="product-price" id="product3-price">"olvidate de los interruptores"</p>
+            <a href="https://wa.me/5493517910019?text=" class="whatsapp-btn" id="product3-whatsapp" target="_blank">
+                <img src="https://image.pngaaa.com/240/1760240-middle.png" alt="WhatsApp" />
+                <span>Contactar por WhatsApp</span>
+            </a>
+        </div>
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "Product",
+              "name": "Led con sensores",
+              "image": "https://i.imgur.com/3ZBwQDu.png",
+              "description": "Olvídate de los interruptores.",
+              "offers": {
+                "@type": "Offer",
+                "url": "https://wa.me/5493513038119?text=",
+                "priceCurrency": "ARS",
+                "price": "XX.XX", // Inserta el precio correspondiente
+                "itemCondition": "https://schema.org/NewCondition",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+            </script>
+    </section>
+    
+    </section>
+    <footer>
+        <p>Dirección: Av. congreso N° 5182, Barrio Villa Libertador, Cordoba</p>
+        <div>
+            <button><a href="prueba_de_excel.xls" download="prueba_de_excel.xls" onclick="return false";>Catálogo</a></button>
+            <button><a href="catalogo evolucion led.pdf" download="catalogo evolucion led.pdf">Descargar</a></button>
+        </div>
+        <div class="social-icons">
+            <a href="https://wa.me/5493517910019?text=%F0%9F%91%8B%20Hola%20😊%20Quer%C3%ADa%20hacerte%20una%20consulta%20sobre%20tus%20productos%20%F0%9F%92%A1" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+            </a>
+            
+            
+            <a href="https://instagram.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+            </a>
+            <!-- Botón de Google Maps -->
+            <a href="https://maps.app.goo.gl/t6ap5yJq5v9UFLrx6" target="_blank">
+                <img src="https://img.icons8.com/color/48/000000/google-maps.png" alt="Google Maps" style="width: 35px;">
+
+
+
+
+            </a>
+        </div>
+    </footer>    
+    
+
+    <script>
+function updateWhatsAppLinks() {
+    // Producto 1
+    const product1Title = document.getElementById('product1-title').innerText;
+    const product1Price = document.getElementById('product1-price').innerText;
+    document.getElementById('product1-whatsapp').href = `https://wa.me/5493517910019?text=🎵 Hola! Me interesa el producto ${product1Title}, ${product1Price}';
+
+    // Producto 2
+    const product2Title = document.getElementById('product2-title').innerText;
+    const product2Price = document.getElementById('product2-price').innerText;
+    document.getElementById('product2-whatsapp').href = `https://wa.me/5493517910019?text=🛡️ Hola! Me interesa el producto ${product2Title},  ${product2Price}`;
+
+    // Producto 3
+    const product3Title = document.getElementById('product3-title').innerText;
+    const product3Price = document.getElementById('product3-price').innerText;
+    document.getElementById('product3-whatsapp').href = `https://wa.me/5493517910019?text=🧤 Hola! Me interesa el producto ${product3Title},  ${product3Price}`;
+}
+
+// Llama a la función cuando el contenido cambia
+document.querySelectorAll('.product-title, .product-price').forEach(item => {
+    item.addEventListener('input', updateWhatsAppLinks);
+});
+
+// Actualiza los enlaces de WhatsApp cuando se cargue la página
+window.onload = updateWhatsAppLinks;
+
+
+    </script>
+    
+</body>
+</html>
